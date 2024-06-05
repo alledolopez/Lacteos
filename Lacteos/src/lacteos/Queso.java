@@ -19,7 +19,7 @@ public class Queso {
 		
 	}
 	
-	public void imprimir () {
+	public void imprimir_cabecera () {
 		System.out.println("QUESOS ENTREPINARES");
 		System.out.println("Registro Sanitario No 52/38751");
 		imprimir_detalle(); 
