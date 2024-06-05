@@ -22,10 +22,15 @@ public class Queso {
 	public void imprimir () {
 		System.out.println("QUESOS ENTREPINARES");
 		System.out.println("Registro Sanitario No 52/38751");
+		imprimir_detalle(); 
+	}
+	/**
+	 * 
+	 */
+	private void imprimir_detalle() {
 		System.out.println("Para consultar el lote del producto revise la etiqueta");
-		System.out.println("Peso: " + this.peso); System.out.println("Tipo de leche: " +
-		this.tipo_leche);
-		System.out.println("Cantidad de leche: " + this.cantidad_leche); 
+		System.out.println("Peso: " + this.peso); System.out.println("Tipo de leche: " + this.tipo_leche);
+		System.out.println("Cantidad de leche: " + this.cantidad_leche);
 	}
 
 	/**
